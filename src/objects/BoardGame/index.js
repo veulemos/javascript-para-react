@@ -7,7 +7,14 @@ function BoardGame(amountCards){
     
     //console.log($htmlContent); //mostra as imagens
    // return $htmlContent; //consegue mostrar as imagens
-    return ' <section class="board-game">'+ $htmlContent + '</section>';
+   
+   return /*html*/ `
+   <section class="board-game">
+   ${$htmlContent}
+   </section>
+   `;
+   
+   //return ' <section class="board-game">'+ $htmlContent + '</section>';
 }
 
 export default BoardGame;
